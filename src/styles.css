@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-lightest);
+  font-size: 14px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --background-dark: #734b5e;
+  --background-light: #bcbdc0;
+  --background-lightest: #eee;
+  --text: #565857;
+  --primary: #8a8d91;
+  --blaha: #f5d3c8;
+
+  --border-color: #ddd;
+  --border-radius: calc(2.5 * var(--spacing-base));
+
+  --box-shadow-card: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  --box-shadow-button: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  --spacing-base: 4px;
+}

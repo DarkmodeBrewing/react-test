@@ -1,0 +1,18 @@
+.btn {
+  padding: calc(2 * var(--spacing-base)) calc(4 * var(--spacing-base));
+  font-size: 1em;
+  background-color: var(--background-lightest);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--box-shadow-button);
+  margin-left: var(--spacing-base);
+  margin-right: var(--spacing-base);
+  transition: box-shadow 300ms;
+}
+.btn:hover {
+  box-shadow: none;
+}
+.btn.primary {
+  background-color: var(--primary);
+  color: var(--background-lightest);
+}
