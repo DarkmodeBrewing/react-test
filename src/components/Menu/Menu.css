@@ -6,5 +6,29 @@
 
 .menu-toggle span {
   display: inline-block;
+  width: 85%;
+  border: var(--spacing-base) solid black;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  background-color: #000;
+}
+
+nav.closed {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav.opened {
   border: 2px solid black;
+  z-index: 10;
+  display: block;
 }
