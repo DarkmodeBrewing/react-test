@@ -1,10 +1,5 @@
 import './styles.css';
-import './components/Buttons/Button';
-import { Button } from './components/Buttons/Button';
-import { ButtonPrimary } from './components/Buttons/ButtonPrimary';
-import { Header } from './components/Header/Header';
-import { Footer } from './components/Footer/Footer';
-import { Card } from './components/Card/Card';
+import { Button, ButtonPrimary, Header, Footer, Card } from './components';
 
 export default function App() {
   const clickHandler = () => {
