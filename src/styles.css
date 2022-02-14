@@ -23,5 +23,5 @@ body {
   --box-shadow-card: rgba(9, 30, 66, 0.25) 0px 1px 1px,
     rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
   --box-shadow-button: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  --spacing-base: 4px;
+  --spacing-base: 0.285em;
 }

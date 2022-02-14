@@ -1,11 +1,14 @@
 .header {
+  font-family: sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5em;
+  height: calc(18 * var(--spacing-base));
   background-color: var(--background-dark);
   box-shadow: var(--box-shadow-card);
   transition: all 300ms 'ease-in';
+  padding-left: calc(4 * var(--spacing-base));
+  padding-right: calc(4 * var(--spacing-base));
 }
 
 .scrolled {

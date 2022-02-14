@@ -10,7 +10,7 @@ export default function App() {
     <>
       <Header appTitle="App title" />
       <Card>
-        <div style={{ height: 1000 }}>
+        <div>
           <ButtonPrimary label="Primär" onClick={clickHandler} />
           <Button label="Standard" onClick={clickHandler} />
         </div>

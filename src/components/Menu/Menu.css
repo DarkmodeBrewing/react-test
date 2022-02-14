@@ -1,0 +1,10 @@
+.menu-toggle {
+  height: 4em;
+  width: 4em;
+  padding: 0.4em;
+}
+
+.menu-toggle span {
+  display: inline-block;
+  border: 2px solid black;
+}
